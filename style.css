@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* fonts ---------------------------------- */
+
+/* 
+@font-face {
+    font-family: agrave-bold;
+    src: url(./fonts/agrave/static/AgravePro-Bold.ttf);
+}
+
+@font-face {
+    font-family: agrave;
+    src: url(./fonts/agrave/static/AgravePro-Regular.ttf);
+}
+
+@font-face {
+    font-family: isometra;
+    src: url(./fonts/isometra/Isometra-Regular.ttf);
+}
+
+.newFont{
+    font-family: agrave-bold, agrave, isometra;
+} */
+
+
+/* icons ----------------------------- */
+
+/* .fa-brands{
+    font-size: 25px;
+}
+
+.fa-facebook{
+    color: blue;
+} */
+
+
+/* transition ------------- */
+
+/* .onHover{
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+
+    transform-origin: bottom right;
+    transition: all 1s ease;
+}
+
+.onHover:hover{
+    background-color: chartreuse;
+    transform: scale(1.2) rotateZ(180deg);
+    transform: translate(0px, -10px) scale(1.1);
+    transform: rotateZ(90deg);
+} */
+
+
+/* animation ----------------------- */
+
+
+/* @keyframes moveRight {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(150px);
+    }
+}
+
+.myAnimation{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+
+    animation: moveRight 5s ease-in 1s 1 forwards;
+} */
+
+
+
+/* ------------------- */
+
+
+/* @keyframes fadeUp {
+    0%{
+        transform: translateY(120%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.parent{
+    margin: 20px;
+    width: 250px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.child{
+    transform: translateY(120%);
+
+    animation: fadeUp 5s forwards;
+} */
+
+
+/* --------------------------- */
+
+/* @keyframes bounce {
+    0%{
+        transform: translateY(150px);
+    }
+    25%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translate(0px, 150px);
+    }
+    75%{
+        transform: translate(150px, 150px);
+    }
+    100%{
+        transform: translate();
+    }
+}
+
+.ball{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+    transform: translateY(150px);
+
+    animation: bounce 4s infinite;
+} */
+
+
+/* ------------------------- */
+
+/* @keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.axil{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+    padding: 10%;
+
+    animation: rotate 10s linear infinite;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+} */
+
+
+/* --------------------------------- */
+
+/* @keyframes spinerAnimation {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.spiner{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border: 20px solid black;
+    border-radius: 50%;
+    border-top-color: cyan;
+
+    animation: spinerAnimation 3s infinite;
+} */
